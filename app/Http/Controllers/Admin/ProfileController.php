@@ -5,7 +5,7 @@ namespace App\Http\Controllers\Admin;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
-class ProfileÇontroller extends Controller
+class ProfileController extends Controller
 {
     public function add() {
         return view('admin.profile.create');
@@ -16,7 +16,7 @@ class ProfileÇontroller extends Controller
     }
     
     public function edit() {
-        return view('admin.profile.create');
+        return view('admin.profile.edit');
     }
     
     public function update() {
