@@ -20,7 +20,7 @@ Route::get('XXX', 'XXX\AAAController@bbb');
 
 
 Route::group(['prefix' => 'admin'], function() {
-    Route::get('news/create', 'Admin\NewsController@add');
+    Route::get('news/create', 'Admin\NewsController@add')->middleware('auth');
     
     /*課題４【応用】 前章でAdmin/ProfileControllerを作成し、add Action, edit Actionを追加しました。
       web.phpを編集して、admin/profile/create にアクセスしたら ProfileController の add Action に、
@@ -33,3 +33,7 @@ Route::group(['prefix' => 'admin'], function() {
 
 
 
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
