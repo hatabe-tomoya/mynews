@@ -11,8 +11,7 @@
         <link rel="dns-prefetch" href="https://fonts.gstatic.com">
         <link rel="https://fonts.googleapis.com/css?family=Raleway:300,400,600" rel="stylesheet" type="text/css">
         <link href="{{ secure_asset('css/app.css') }}" rel="stylesheet">
-        /*課題11-3. 【応用】 resources/views/layouts/admin.blade.php をコピーして profile.blade.php を同じディレクトリ（resources/views/layouts）に
-        作成しましょう。また、以下の部分を下の※1のように修正しましょう。*/
+        {{ --課題11-3 --}}
         <link href="{{ secure_asset('css/profile.css') }}" rel="stylesheet">
     </head>
     <body>
