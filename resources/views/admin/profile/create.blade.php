@@ -1,4 +1,4 @@
-@extends('layouts.profile')
+{{--  課題11-4 --}}
 
 @section('title', 'Myプロフィール')
 
@@ -11,3 +11,4 @@
         </div>
     </div>
 @endsection
+
