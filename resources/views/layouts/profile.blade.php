@@ -30,7 +30,7 @@
                         <ul class="navber nav mr-auto">
                             
                         </ul>
-                        
+                        {{-- 課題12-1 --}}
                         <ul class="navbar nav ml-auto">
                                 
                         @guest
