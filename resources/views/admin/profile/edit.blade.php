@@ -1,3 +1,5 @@
+{{-- 課題12-1 --}}
+
 @extends('layouts.profile')
 
 @section('title', 'Myプロフィール')
