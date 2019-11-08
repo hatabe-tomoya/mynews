@@ -13,6 +13,7 @@ class ProfileController extends Controller
         return view('admin.profile.create');
     }
     
+    //課題14-5
     public function create(Request $request) {
         
         $this->validate($request, Profile::$rules);
