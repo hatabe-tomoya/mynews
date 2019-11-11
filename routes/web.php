@@ -36,7 +36,7 @@ Route::group(['prefix' => 'admin', 'middleware' => 'auth'], function() {
       Route::get('profile/edit', 'Admin\ProfileController@edit');
       //課題13-6
       Route::post('profile/edit', 'Admin\ProfileController@update');
-      //課題16-2
+      //課題16-1
       Route::get('profile/edit', 'Admin\ProfileController@edit');
       Route::post('profile/edit', 'Admin\ProfileController@update');
 });
