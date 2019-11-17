@@ -39,6 +39,8 @@ Route::group(['prefix' => 'admin', 'middleware' => 'auth'], function() {
       //課題16-1
       Route::get('profile/edit', 'Admin\ProfileController@edit');
       Route::post('profile/edit', 'Admin\ProfileController@update');
+      
+      
 });
 
 
@@ -48,3 +50,8 @@ Route::group(['prefix' => 'admin', 'middleware' => 'auth'], function() {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('/', 'NewsController@index');
+
+//課題18-2
+Route::get('/profile', 'ProfileController@index');
