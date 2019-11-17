@@ -1,10 +1,12 @@
 {{-- 課題18-1 --}}
 @extends('layouts.front_profile')
 
-@section('profile', 'プロフィール表示ページ' )
+@section('profile','プロフィール一覧')
+
 @section('content')
     <div class="container">
         <div class="row">
+            <h2>プロフィール一覧</h2>
             <div class="col-md-12 mx-auto">
                 <div class="row">
                     <table class="table table-dark">
