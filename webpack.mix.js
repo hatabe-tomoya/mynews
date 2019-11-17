@@ -15,4 +15,9 @@ mix.js('resources/js/app.js', 'public/js')
    .sass('resources/sass/app.scss', 'public/css')
    .sass('resources/sass/admin.scss', 'public/css')
    //課題11-6
-   .sass('resources/sass/profile.scss', 'public/css');
+   .sass('resources/sass/profile.scss', 'public/css')
+   
+   .sass('resources/sass/front.scss', 'public/css')
+   //課題18-1
+   .sass('resources/sass/front_profile.scss', 'public/css');
+   
