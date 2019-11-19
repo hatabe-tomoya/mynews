@@ -1,8 +1,5 @@
 @extends('layouts.front')
 
-{{-- Herokuへデプロイ --}}
-@section('title', 'ニュース')
-
 @section('content')
 <div class="container">
     <hr color="#c0c0c0">

@@ -60,6 +60,7 @@
             </nav>
             
             <main class="py-4">
+                {{-- 課題Herokuへのデプロイ --}}
                 <h1>ニュース投稿一覧</h1>
                 @yield('content')
             </main>
